@@ -29,7 +29,7 @@ import { ErrorMessage } from "@/constants/error";
 import { Colors } from "@/constants/colors";
 import { InfoCard } from "../_components/info-card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { JSX, useEffect, useState } from "react";
+import { JSX, useEffect } from "react";
 
 const statIcons: { [key: string]: JSX.Element } = {
   hp: <Heart className="w-5 h-5 text-red-500" />,
